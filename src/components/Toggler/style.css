@@ -1,0 +1,15 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.header-wrapper > span {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #ccc;
+}
+.header-wrapper > span.active {
+  background-color: #fff;
+}

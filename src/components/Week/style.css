@@ -1,0 +1,29 @@
+.weekday-wrapper {
+  display: flex;
+  align-items: center;
+}
+.weekday-date {
+  display: flex;
+  flex-direction: column;
+}
+.weekday-date > span {
+  padding: 3px 10px;
+}
+.weekday-date > span:last-child {
+  font-size: 12px;
+}
+.weekday-temp-weather {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.weekday-weather-type {
+  width: 30px;
+  height: 30px;
+}
+.weekday-temp {
+  margin-right: 10px;
+}
+.w-50 {
+  width: 50%;
+}
